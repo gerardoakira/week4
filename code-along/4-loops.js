@@ -1,4 +1,4 @@
-let burger = ['bottom bun', 'beef patty', 'cheese', 'onion', 'tomato', 'lettuce', 'top bun']
+let burger = ['bottom bun', 'beef patty', 'cheese', 'onion', 'tomato', 'lettuce','burger sauce', 'top bun']
 
 // Task: write each ingredient to the JavaScript console
 
@@ -14,6 +14,9 @@ console.log(burger[7])
 
 // with a loop
 
+for (let i=0; i<burger.length; i++){
+  console.log(burger[i])
+}
 
 //  👆 YOUR CODE ENDS HERE. DON'T CHANGE ANY OTHER CODE 👆
 
